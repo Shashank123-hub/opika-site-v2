@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="alternate" type="text/plain" href="/llms.txt" title="LLMs description">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="/favicon.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/favicon.png">
+
+  <title>Resources | AI, GTM, Growth and AI Visibility | Opika</title>
+  <meta name="description" content="Explore Opika blogs, videos, and case studies on AI, go-to-market execution, AI visibility, GEO, AEO, and practical business growth.">
+  <link rel="canonical" href="https://opika.co/resources">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Opika Resources | AI, GTM, Growth and AI Visibility">
+  <meta property="og:description" content="Blogs, videos, and case studies on AI-led growth, go-to-market execution, AI visibility, GEO, AEO, and practical business systems.">
+  <meta property="og:url" content="https://opika.co/resources">
+  <meta property="og:image" content="https://opika.co/og-image.png">
+  <meta property="og:site_name" content="Opika">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Opika Resources | AI, GTM, Growth and AI Visibility">
+  <meta name="twitter:description" content="Blogs, videos, and case studies on AI-led growth, go-to-market execution, AI visibility, GEO, AEO, and practical business systems.">
+  <meta name="twitter:image" content="https://opika.co/og-image.png">
+  <meta name="twitter:site" content="@Opika_co">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VFX4NG7HHV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VFX4NG7HHV');
+</script>
+
+  <style>
+    :root {
+      --pink: #FF4D71;
+      --navy: #305A81;
+      --navy-dark: #212C35;
+      --navy-deep: #1a2530;
+      --orange: #FF6545;
+      --sky: #6BCEFF;
+      --text: rgba(33, 44, 53, 0.78);
+      --muted: rgba(33, 44, 53, 0.5);
+      --line: rgba(48, 90, 129, 0.1);
+      --bg: #f8fafb;
+      --white: #ffffff;
+      --max: 1140px;
+      --card-bg: rgba(255, 255, 255, 0.92);
+      --card-shadow: 0 1px 3px rgba(33,44,53,0.06), 0 8px 32px rgba(33,44,53,0.08);
+      --card-shadow-hover: 0 2px 4px rgba(33,44,53,0.06), 0 20px 56px rgba(33,44,53,0.14);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+
+    body {
+      margin: 0;
+      font-family: 'DM Sans', system-ui, sans-serif;
+      color: var(--navy-dark);
+      background: var(--bg);
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body.menu-open,
+    body.modal-open { overflow: hidden; }
+
+    h1, h2, h3 { margin: 0; font-family: 'DM Serif Display', serif; font-weight: 400; line-height: 1.1; letter-spacing: -0.02em; }
+    p { margin: 0; }
+    a { color: inherit; }
+
+    .bg-mesh { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+    .bg-mesh::before {
+      content: ''; position: absolute; width: 900px; height: 900px; border-radius: 50%; top: -300px; right: -200px;
+      background: radial-gradient(circle, rgba(48,90,129,0.08) 0%, transparent 70%);
+      animation: driftA 28s ease-in-out infinite alternate;
+    }
+    .bg-mesh::after {
+      content: ''; position: absolute; width: 700px; height: 700px; border-radius: 50%; bottom: -200px; left: -150px;
+      background: radial-gradient(circle, rgba(255,77,113,0.07) 0%, transparent 70%);
+      animation: driftB 22s ease-in-out infinite alternate;
+    }
+    .bg-grid {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      background-image: linear-gradient(rgba(48,90,129,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(48,90,129,0.03) 1px, transparent 1px);
+      background-size: 64px 64px;
+      mask-image: radial-gradient(ellipse 80% 80% at 50% 20%, black 40%, transparent 100%);
+    }
+    @keyframes driftA { from { transform: translate(0,0) scale(1); } to { transform: translate(-60px,80px) scale(1.15); } }
+    @keyframes driftB { from { transform: translate(0,0) scale(1); } to { transform: translate(80px,-60px) scale(1.1); } }
+
+    .site { position: relative; z-index: 1; }
+    .container { width: min(calc(100% - 2.5rem), var(--max)); margin: 0 auto; }
+
+    .nav-shell {
+      position: sticky; top: 0; z-index: 100;
+      backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px) saturate(180%);
+      background: rgba(248,250,251,0.86); border-bottom: 1px solid rgba(48,90,129,0.06); transition: box-shadow 300ms ease;
+    }
+    .nav-shell.scrolled { box-shadow: 0 4px 24px rgba(33,44,53,0.06); }
+    nav { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.1rem 0; }
+    .brand { display: inline-flex; align-items: center; text-decoration: none; }
+    .brand img { height: 36px; width: auto; display: block; }
+    .nav-links { display: flex; align-items: center; gap: 0.4rem; }
+    .nav-links a { text-decoration: none; color: var(--text); font-weight: 500; font-size: 0.95rem; padding: 0.5rem 0.85rem; border-radius: 8px; transition: color 160ms, background 160ms; }
+    .nav-links a:not(.btn-nav):hover,
+    .nav-links a[aria-current="page"] { color: var(--navy); background: rgba(48,90,129,0.06); }
+    .btn-nav { background: var(--navy); color: var(--white) !important; padding: 0.6rem 1.2rem !important; border-radius: 10px !important; font-weight: 600 !important; font-size: 0.92rem !important; }
+    .menu-toggle { display: none; padding: 0.25rem; border: 0; background: none; color: var(--navy-dark); font-size: 2rem; line-height: 1; cursor: pointer; }
+
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+      padding: 0.9rem 1.6rem; border-radius: 12px; text-decoration: none; border: none;
+      font-family: 'DM Sans', sans-serif; font-weight: 600; font-size: 0.98rem; cursor: pointer;
+      transition: transform 200ms ease, box-shadow 200ms ease, background 200ms ease;
+    }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(33,44,53,0.18); }
+    .btn-primary { background: var(--pink); color: var(--white); box-shadow: 0 4px 16px rgba(255,77,113,0.3); }
+    .btn-outline { background: transparent; color: var(--navy); border: 1.5px solid rgba(48,90,129,0.2); }
+    .btn-white { background: var(--white); color: var(--navy-dark); box-shadow: 0 4px 16px rgba(33,44,53,0.12); }
+
+    .label {
+      display: inline-flex; align-items: center; gap: 0.5rem; width: fit-content;
+      padding: 0.38rem 0.82rem; border-radius: 6px; font-size: 0.78rem; font-weight: 700;
+      letter-spacing: 0.08em; text-transform: uppercase; background: rgba(255,77,113,0.1); color: var(--pink);
+    }
+    .label-navy { background: rgba(48,90,129,0.08); color: var(--navy); }
+    .label-white { background: rgba(255,255,255,0.12); color: rgba(255,255,255,0.9); border: 1px solid rgba(255,255,255,0.15); }
+
+    .breadcrumb { display: flex; align-items: center; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 1.4rem; color: var(--muted); font-size: 0.9rem; }
+    .breadcrumb a { color: var(--navy); text-decoration: none; }
+
+    .hero { padding: 5.3rem 0 3.2rem; }
+    .hero-inner { max-width: 870px; display: flex; flex-direction: column; gap: 1.25rem; }
+    .hero h1 { font-size: clamp(3rem, 6vw, 5.4rem); max-width: 18ch; }
+    .hero h1 em { color: var(--pink); font-style: italic; }
+    .hero-copy { color: var(--text); font-size: clamp(1.05rem,1.8vw,1.2rem); line-height: 1.75; max-width: 66ch; }
+
+    .resource-controls { padding: 0 0 2.8rem; }
+    .controls-panel { background: rgba(255,255,255,0.8); border: 1px solid var(--line); border-radius: 22px; padding: 1.2rem; box-shadow: var(--card-shadow); }
+    .search-box { position: relative; }
+    .search-box svg { position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); width: 20px; height: 20px; stroke: var(--navy); }
+    .search-box input { width: 100%; padding: 1rem 1rem 1rem 3rem; border: 1px solid rgba(48,90,129,0.14); border-radius: 14px; background: white; color: var(--navy-dark); font: inherit; outline: none; }
+    .filter-row { display: flex; flex-wrap: wrap; gap: 0.55rem; margin-top: 1rem; }
+    .filter-button { border: 1px solid rgba(48,90,129,0.12); border-radius: 999px; padding: 0.55rem 0.85rem; background: rgba(48,90,129,0.04); color: var(--navy); font: inherit; font-size: 0.84rem; font-weight: 700; cursor: pointer; }
+    .filter-button:hover, .filter-button.active { background: var(--navy); color: white; border-color: var(--navy); }
+    .result-count { margin-top: 0.8rem; color: var(--muted); font-size: 0.86rem; }
+
+    section.content-section { padding: 3rem 0 5.5rem; }
+    .section-intro { max-width: 720px; margin-bottom: 2.2rem; display: flex; flex-direction: column; gap: 0.9rem; }
+    .section-intro h2 { font-size: clamp(2.2rem,4vw,3.6rem); }
+    .section-intro p { color: var(--text); font-size: 1.03rem; line-height: 1.75; }
+
+    .featured-card {
+      display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 0;
+      overflow: hidden; border-radius: 28px; background: var(--card-bg); border: 1px solid var(--line); box-shadow: var(--card-shadow);
+    }
+    .featured-media {
+      min-height: 370px; position: relative; display: flex; align-items: flex-end; padding: 2rem;
+      background: linear-gradient(135deg, rgba(48,90,129,0.94), rgba(33,44,53,0.94)); color: white;
+    }
+    .featured-media::before { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at 20% 20%, rgba(107,206,255,0.24), transparent 38%), radial-gradient(circle at 80% 80%, rgba(255,77,113,0.28), transparent 38%); }
+    .featured-mark { position: relative; z-index: 1; font-family: 'DM Serif Display', serif; font-size: clamp(3.3rem,7vw,6rem); line-height: 0.95; max-width: 6ch; }
+    .featured-content { padding: clamp(2rem,4vw,3rem); display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 1rem; }
+    .content-type { display: inline-flex; padding: 0.32rem 0.68rem; border-radius: 999px; background: rgba(255,77,113,0.09); color: var(--pink); font-size: 0.72rem; font-weight: 800; letter-spacing: 0.07em; text-transform: uppercase; }
+    .featured-content h2 { font-size: clamp(2rem,3.4vw,3.1rem); }
+    .featured-content p { color: var(--text); line-height: 1.75; }
+    .resource-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.65rem; color: var(--muted); font-size: 0.84rem; }
+    .resource-meta span + span::before { content: '•'; margin-right: 0.65rem; }
+
+    .resource-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1.2rem; }
+    .resource-card { display: flex; flex-direction: column; overflow: hidden; border-radius: 22px; border: 1px solid var(--line); background: var(--card-bg); box-shadow: var(--card-shadow); transition: transform 250ms ease, box-shadow 250ms ease; }
+    .resource-card:hover { transform: translateY(-4px); box-shadow: var(--card-shadow-hover); }
+    .resource-thumb { position: relative; aspect-ratio: 16 / 9; display: grid; place-items: center; overflow: hidden; background: linear-gradient(135deg, rgba(48,90,129,0.12), rgba(255,77,113,0.12)); }
+    .resource-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .thumb-symbol { font-family: 'DM Serif Display', serif; font-size: 4rem; color: var(--navy); }
+    .play-button { width: 62px; height: 62px; border-radius: 50%; display: grid; place-items: center; background: rgba(255,255,255,0.94); box-shadow: 0 10px 30px rgba(33,44,53,0.18); }
+    .play-button svg { width: 25px; height: 25px; fill: var(--pink); margin-left: 4px; }
+    .resource-body { padding: 1.45rem; display: flex; flex-direction: column; align-items: flex-start; gap: 0.8rem; flex: 1; }
+    .resource-body h3 { font-family: 'DM Sans', sans-serif; font-size: 1.18rem; line-height: 1.38; font-weight: 700; }
+    .resource-body p { color: var(--text); font-size: 0.94rem; line-height: 1.68; }
+    .resource-link { margin-top: auto; padding-top: 0.35rem; color: var(--navy); font-size: 0.9rem; font-weight: 800; text-decoration: none; }
+    .coming-soon { pointer-events: none; }
+    .coming-soon .resource-thumb, .coming-soon .resource-body { opacity: 0.78; }
+    .status-pill { display: inline-flex; padding: 0.3rem 0.62rem; border-radius: 999px; background: rgba(48,90,129,0.08); color: var(--navy); font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; }
+
+    .video-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1.3rem; }
+    .video-card { overflow: hidden; border-radius: 24px; background: var(--card-bg); border: 1px solid var(--line); box-shadow: var(--card-shadow); transition: transform 250ms ease, box-shadow 250ms ease; }
+    .video-card:hover { transform: translateY(-4px); box-shadow: var(--card-shadow-hover); }
+    .video-thumb { position: relative; aspect-ratio: 16/9; display: block; overflow: hidden; background: var(--navy-dark); }
+    .video-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 300ms ease; }
+    .video-card:hover .video-thumb img { transform: scale(1.025); }
+    .video-thumb::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.22), transparent 55%); }
+    .video-play { position: absolute; z-index: 2; left: 50%; top: 50%; transform: translate(-50%,-50%); width: 58px; height: 58px; border-radius: 50%; display: grid; place-items: center; background: rgba(255,255,255,0.95); box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+    .video-play svg { width: 23px; height: 23px; fill: var(--pink); margin-left: 3px; }
+    .video-copy { padding: 1.45rem; display: flex; flex-direction: column; align-items: flex-start; min-height: 300px; }
+    .video-copy .content-type { margin-bottom: 0.9rem; }
+    .video-copy h3 { font-family: 'DM Sans', sans-serif; font-size: 1.18rem; line-height: 1.35; font-weight: 700; margin: 0 0 0.7rem; }
+    .video-copy h3 a { text-decoration: none; }
+    .video-copy h3 a:hover { color: var(--navy); }
+    .video-copy p { color: var(--text); font-size: 0.93rem; line-height: 1.65; margin-bottom: 1rem; }
+    .video-copy .resource-link { margin-top: auto; }
+
+    .empty-state { display: none; grid-column: 1 / -1; padding: 2rem; border: 1px solid var(--line); border-radius: 22px; background: var(--card-bg); text-align: center; color: var(--text); }
+    .empty-state.visible { display: block; }
+
+    .cta-section { padding: 0 0 5rem; }
+    .cta-panel { background: var(--navy-dark); border-radius: 32px; padding: 4rem; position: relative; overflow: hidden; }
+    .cta-panel::before { content: ''; position: absolute; width: 600px; height: 600px; border-radius: 50%; right: -200px; top: -200px; background: radial-gradient(circle, rgba(255,77,113,0.15), transparent 65%); }
+    .cta-inner { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr auto; gap: 3rem; align-items: center; }
+    .cta-panel h2 { font-size: clamp(2.2rem,4vw,3.6rem); color: white; margin: 1rem 0 0.8rem; }
+    .cta-panel p { color: rgba(255,255,255,0.72); font-size: 1.05rem; line-height: 1.75; max-width: 55ch; }
+
+    footer { padding: 3rem 0; border-top: 1px solid var(--line); background: rgba(255,255,255,0.42); }
+    .footer-inner { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 2rem; align-items: start; }
+    .footer-brand img { height: 34px; width: auto; display: block; margin-bottom: 1rem; }
+    .footer-text { max-width: 34ch; color: var(--text); font-size: 0.95rem; line-height: 1.65; }
+    .footer-title { margin-bottom: 0.85rem; color: var(--pink); font-size: 0.78rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+    .footer-links { display: grid; gap: 0.55rem; }
+    .footer-link { color: var(--text); font-size: 0.95rem; line-height: 1.5; text-decoration: none; }
+    .footer-link:hover { color: var(--navy); }
+    .footer-bottom { margin-top: 2rem; padding-top: 1.2rem; border-top: 1px solid var(--line); color: #000; font-size: 0.9rem; }
+
+    .reveal { opacity: 0; transform: translateY(25px); transition: opacity 700ms cubic-bezier(0.16,1,0.3,1), transform 700ms cubic-bezier(0.16,1,0.3,1); }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    @media (max-width: 1024px) {
+      .resource-grid, .video-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+      .featured-card { grid-template-columns: 1fr; }
+      .featured-media { min-height: 300px; }
+      .footer-inner { grid-template-columns: 1fr 1fr; }
+      .footer-brand { grid-column: 1 / -1; }
+    }
+
+    @media (max-width: 768px) {
+      nav { flex-wrap: nowrap; }
+      .menu-toggle { display: block; margin-left: auto; }
+      .nav-links {
+        display: none; position: absolute; top: calc(100% + 0.8rem); left: 0; right: 0; width: 100%;
+        flex-direction: column; align-items: stretch; gap: 0.35rem; padding: 1rem;
+        border: 1px solid rgba(48,90,129,0.08); border-radius: 18px; background: rgba(248,250,251,0.98); box-shadow: 0 18px 45px rgba(33,44,53,0.12);
+      }
+      .nav-links.active { display: flex; }
+      .nav-links a { width: 100%; padding: 0.85rem 1rem; }
+      .btn-nav { margin-top: 0.3rem; text-align: center; }
+      .hero { padding: 4rem 0 2.5rem; }
+      .hero h1 { font-size: 2.9rem; }
+      .resource-grid, .video-grid, .cta-inner { grid-template-columns: 1fr; }
+      .cta-panel { padding: 2.5rem; }
+      .footer-inner { grid-template-columns: 1fr; }
+      .footer-brand { grid-column: auto; }
+    }
+
+    @media (max-width: 480px) {
+      .container { width: min(calc(100% - 1.5rem), var(--max)); }
+      .featured-content, .resource-body { padding: 1.25rem; }
+      .featured-media { min-height: 250px; padding: 1.4rem; }
+      .cta-panel { padding: 2rem; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://opika.co/resources#page",
+        "url": "https://opika.co/resources",
+        "name": "Opika Resources",
+        "headline": "AI, GTM and AI Visibility Resources",
+        "description": "Blogs, videos, and case studies from Opika on AI, go-to-market execution, AI visibility, GEO, AEO, and business growth.",
+        "inLanguage": "en-US",
+        "isPartOf": { "@id": "https://opika.co/#website" },
+        "about": ["Artificial intelligence", "Go-to-market strategy", "AI visibility", "Generative Engine Optimization", "Answer Engine Optimization"],
+        "mainEntity": { "@id": "https://opika.co/resources#resource-list" }
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://opika.co/resources#resource-list",
+        "name": "Opika AI and GTM resources",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Why AI Is Unlike Any Technology We've Built Before", "url": "https://opika.co/blogs/why-ai-is-unlike-any-technology-weve-built-before/" },
+          { "@type": "ListItem", "position": 2, "name": "The Biggest Mistake Businesses Make When Adopting AI", "url": "https://opika.co/blogs/the-biggest-mistake-businesses-make-when-adopting-ai/" },
+          { "@type": "ListItem", "position": 3, "name": "Why chiropractors in Texas are quietly losing patients to ChatGPT", "url": "https://opika.co/blogs/why-chiropractors-in-texas-are-losing-patients-to-chatgpt/" },
+          { "@type": "ListItem", "position": 4, "name": "Your customer didn't search for a plumber, they described a problem", "url": "https://opika.co/blogs/your-customer-didnt-search-for-a-plumber-they-described-a-problem/" },
+          { "@type": "ListItem", "position": 5, "name": "Your next customer will ask AI about hail damage before they ever call your agency", "url": "https://opika.co/blogs/your-next-customer-will-ask-ai-about-hail-damage/" },
+          { "@type": "ListItem", "position": 6, "item": { "@id": "https://opika.co/resources#video-ai-tech-shift" } },
+          { "@type": "ListItem", "position": 7, "item": { "@id": "https://opika.co/resources#video-seo-aio-geo" } },
+          { "@type": "ListItem", "position": 8, "item": { "@id": "https://opika.co/resources#video-seo-geo-aio-explained" } },
+          { "@type": "ListItem", "position": 9, "item": { "@id": "https://opika.co/resources#video-ai-adoption-failure" } }
+        ]
+      },
+      {
+        "@type": "VideoObject",
+        "@id": "https://opika.co/resources#video-ai-tech-shift",
+        "name": "Why AI is Different From Every Previous Tech Shift",
+        "description": "Kanth explains why AI is a fundamental technology shift, how hardware, data and transformers converged, and why value is moving from software execution toward distribution, trust and human connection.",
+        "thumbnailUrl": "https://i.ytimg.com/vi/E4_Bd5e_HTw/maxresdefault.jpg",
+        "embedUrl": "https://www.youtube.com/embed/E4_Bd5e_HTw",
+        "contentUrl": "https://www.youtube.com/watch?v=E4_Bd5e_HTw",
+        "publisher": { "@id": "https://opika.co/#organization" },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "VideoObject",
+        "@id": "https://opika.co/resources#video-seo-aio-geo",
+        "name": "Why Traditional SEO is Dead (And What Replaces It)",
+        "description": "A practical explanation of the shift from traditional SEO toward AI Optimization and Generative Engine Optimization, including an AI visibility case study and audit process.",
+        "thumbnailUrl": "https://i.ytimg.com/vi/Ejq5-CXz4Ok/maxresdefault.jpg",
+        "embedUrl": "https://www.youtube.com/embed/Ejq5-CXz4Ok",
+        "contentUrl": "https://www.youtube.com/watch?v=Ejq5-CXz4Ok",
+        "publisher": { "@id": "https://opika.co/#organization" },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "VideoObject",
+        "@id": "https://opika.co/resources#video-seo-geo-aio-explained",
+        "name": "Is Your Business Visible to AI? SEO vs GEO and AIO Explained",
+        "description": "An explanation of SEO, GEO, AEO and AIO, and how businesses can structure content so AI systems can understand, surface and recommend their expertise.",
+        "thumbnailUrl": "https://i.ytimg.com/vi/8ZTlSxpH3dY/maxresdefault.jpg",
+        "embedUrl": "https://www.youtube.com/embed/8ZTlSxpH3dY",
+        "contentUrl": "https://www.youtube.com/watch?v=8ZTlSxpH3dY",
+        "publisher": { "@id": "https://opika.co/#organization" },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "VideoObject",
+        "@id": "https://opika.co/resources#video-ai-adoption-failure",
+        "name": "Why 90% of Businesses Fail at AI Adoption (And How to Fix It)",
+        "description": "Kanth explains why businesses struggle to adopt AI effectively, covering the technology S-curve, data privacy and security, hallucination risk, AI-native competitors, and the shift from SEO to AEO.",
+        "thumbnailUrl": "https://i.ytimg.com/vi/v_2TDKt4OyI/maxresdefault.jpg",
+        "embedUrl": "https://www.youtube.com/embed/v_2TDKt4OyI",
+        "contentUrl": "https://www.youtube.com/watch?v=v_2TDKt4OyI",
+        "publisher": { "@id": "https://opika.co/#organization" },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://opika.co/" },
+          { "@type": "ListItem", "position": 2, "name": "Resources", "item": "https://opika.co/resources" }
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://opika.co/#organization",
+        "name": "Opika",
+        "url": "https://opika.co/",
+        "logo": "https://opika.co/logo.png",
+        "email": "info@opika.co",
+        "telephone": "+1-480-442-7233",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "email": "info@opika.co",
+          "telephone": "+1-480-442-7233"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="bg-mesh"></div>
+  <div class="bg-grid"></div>
+
+  <div class="site">
+    <div class="nav-shell" id="nav-shell">
+      <div class="container">
+        <nav>
+          <a aria-label="Opika home" class="brand" href="/">
+            <img alt="Opika" src="/logo.png" onerror="this.style.display='none'">
+          </a>
+
+          <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-controls="navLinks" aria-expanded="false">☰</button>
+
+          <div class="nav-links" id="navLinks">
+            <a href="/">Home</a>
+            <a href="/about-us">About Us</a>
+            <a href="/#services">Services</a>
+            <a href="/faq">FAQ</a>
+            <a class="btn-nav" href="mailto:info@opika.co">Contact Us</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container">
+          <div class="breadcrumb"><a href="/">Home</a><span>›</span><span>Resources</span></div>
+          <div class="hero-inner reveal">
+            <span class="label">Resource Hub</span>
+            <h1>Ideas and tools for <em>practical growth.</em></h1>
+            <p class="hero-copy">Explore Opika blogs, videos, and case studies covering AI adoption, go-to-market execution, AI visibility, GEO, AEO, content, and practical growth systems.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="resource-controls">
+        <div class="container">
+          <div class="controls-panel reveal">
+            <div class="search-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+              <input id="resourceSearch" type="search" placeholder="Search resources by title or topic" aria-label="Search resources">
+            </div>
+            <div class="filter-row" aria-label="Resource filters">
+              <button class="filter-button active" data-filter="all" type="button">All</button>
+              <button class="filter-button" data-filter="blog" type="button">Blogs</button>
+              <button class="filter-button" data-filter="video" type="button">Videos</button>
+              <button class="filter-button" data-filter="case-study" type="button">Case Studies</button>
+            </div>
+            <p class="result-count" id="resultCount">Showing all resources</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" id="resources">
+        <div class="container">
+          <div class="section-intro reveal">
+            <span class="label label-navy">Latest Resources</span>
+            <h2>Practical thinking on AI and growth.</h2>
+            <p>Explore our latest blogs and videos on AI adoption, AI visibility, GEO, AEO, and the changing economics of technology. Case studies will appear here as they are published.</p>
+          </div>
+
+          <div class="video-grid" id="resourceGrid">
+            <article class="video-card resource-item reveal" data-type="blog" data-search="AI business adoption productivity automation repetitive work customer discovery AI assistants answer engines AEO GEO artificial intelligence business transformation">
+              <a class="video-thumb" href="/blogs/why-ai-is-unlike-any-technology-weve-built-before/" aria-label="Read Why AI Is Unlike Any Technology We've Built Before">
+                <img src="/assets/blogs/why-ai-is-unlike-any-technology-weve-built-before.webp" alt="Business professional moving from manual repetitive work to AI-assisted proposals, customer insights, content ideas, and data analysis" loading="lazy">
+              </a>
+              <div class="video-copy">
+                <span class="content-type">Blog</span>
+                <h3><a href="/blogs/why-ai-is-unlike-any-technology-weve-built-before/">Why AI Is Unlike Any Technology We've Built Before</a></h3>
+                <p>AI is not just another productivity tool. It changes how work is created inside businesses and how customers discover companies through AI assistants and answer engines.</p>
+                <a class="resource-link" href="/blogs/why-ai-is-unlike-any-technology-weve-built-before/">Read Article →</a>
+              </div>
+            </article>
+
+            <article class="video-card resource-item reveal" data-type="blog" data-search="AI adoption business process automation workflow optimization repetitive tasks ChatGPT Claude Gemini AI strategy measurable business impact operational efficiency tool overload">
+              <a class="video-thumb" href="/blogs/the-biggest-mistake-businesses-make-when-adopting-ai/" aria-label="Read The Biggest Mistake Businesses Make When Adopting AI">
+                <img src="/assets/blogs/the-biggest-mistake-businesses-make-when-adopting-ai.webp" alt="AI adoption roadmap contrasting tool overload with a clear path from business problem to measurable business impact" loading="lazy">
+              </a>
+              <div class="video-copy">
+                <span class="content-type">Blog</span>
+                <h3><a href="/blogs/the-biggest-mistake-businesses-make-when-adopting-ai/">The Biggest Mistake Businesses Make When Adopting AI</a></h3>
+                <p>The biggest AI adoption mistake is starting with tools instead of the business. Better results come from finding repetitive work, improving the process, and applying AI where it creates measurable impact.</p>
+                <a class="resource-link" href="/blogs/the-biggest-mistake-businesses-make-when-adopting-ai/">Read Article →</a>
+              </div>
+            </article>
+
+            <article class="video-card resource-item reveal" data-type="blog" data-search="Texas chiropractor chiropractic Fort Worth ChatGPT AI visibility AEO answer engine optimization local search patient discovery healthcare website questions auto insurance workers compensation">
+              <a class="video-thumb" href="/blogs/why-chiropractors-in-texas-are-losing-patients-to-chatgpt/" aria-label="Read Why chiropractors in Texas are quietly losing patients to ChatGPT">
+                <img src="/assets/blogs/why-chiropractors-in-texas-are-losing-patients-to-chatgpt.webp" alt="Person asking ChatGPT about a stiff neck and chiropractors in Fort Worth, Texas" loading="lazy">
+              </a>
+              <div class="video-copy">
+                <span class="content-type">Blog</span>
+                <h3><a href="/blogs/why-chiropractors-in-texas-are-losing-patients-to-chatgpt/">Why chiropractors in Texas are quietly losing patients to ChatGPT</a></h3>
+                <p>A good Google ranking may not be enough anymore. Texas chiropractic practices also need clear, direct answers to the local patient questions people now ask AI assistants.</p>
+                <a class="resource-link" href="/blogs/why-chiropractors-in-texas-are-losing-patients-to-chatgpt/">Read Article →</a>
+              </div>
+            </article>
+
+            <article class="video-card resource-item reveal" data-type="blog" data-search="Texas home services Houston plumber electrician HVAC AI assistant ChatGPT AEO GEO answer engine optimization local search problem based search multi trade storm damage foundation clay soil homeowner discovery">
+              <a class="video-thumb" href="/blogs/your-customer-didnt-search-for-a-plumber-they-described-a-problem/" aria-label="Read Your customer didn't search for a plumber, they described a problem">
+                <img src="/assets/blogs/your-customer-didnt-search-for-a-plumber-they-described-a-problem.webp" alt="Houston-area homeowner asking ChatGPT about a household problem that could involve plumbing, electrical or HVAC work" loading="lazy">
+              </a>
+              <div class="video-copy">
+                <span class="content-type">Blog</span>
+                <h3><a href="/blogs/your-customer-didnt-search-for-a-plumber-they-described-a-problem/">Your customer didn't search for a plumber, they described a problem</a></h3>
+                <p>Homeowners increasingly describe the problem to AI instead of searching by trade. Texas home-service businesses need to explain the real situations they can handle, not just the category they belong to.</p>
+                <a class="resource-link" href="/blogs/your-customer-didnt-search-for-a-plumber-they-described-a-problem/">Read Article →</a>
+              </div>
+            </article>
+
+            <article class="video-card resource-item reveal" data-type="blog" data-search="Texas insurance hail damage claims Plano Dallas San Antonio independent insurance agency ChatGPT AI assistant AEO GEO answer engine optimization local search homeowners coverage public adjuster AI visibility">
+              <a class="video-thumb" href="/blogs/your-next-customer-will-ask-ai-about-hail-damage/" aria-label="Read Your next customer will ask AI about hail damage before they ever call your agency"><img src="/assets/blogs/your-next-customer-will-ask-ai-about-hail-damage.webp" alt="Hail-damaged car outside a Texas home with a homeowners insurance policy" loading="lazy"></a>
+              <div class="video-copy"><span class="content-type">Blog</span><h3><a href="/blogs/your-next-customer-will-ask-ai-about-hail-damage/">Your next customer will ask AI about hail damage before they ever call your agency</a></h3><p>Texas homeowners increasingly ask AI about hail damage, coverage and claims before calling an agent. Agencies that answer those questions clearly have a better chance of being surfaced.</p><a class="resource-link" href="/blogs/your-next-customer-will-ask-ai-about-hail-damage/">Read Article →</a></div>
+            </article>
+
+            <article class="video-card resource-item reveal" data-type="video" data-search="AI technology shift transformers software economics distribution trust creator artificial intelligence">
+              <a class="video-thumb" href="/videos/why-ai-is-different-from-every-previous-tech-shift/" aria-label="Watch Why AI is Different From Every Previous Tech Shift">
+                <img src="https://i.ytimg.com/vi/E4_Bd5e_HTw/hqdefault.jpg" alt="Why AI is Different From Every Previous Tech Shift video thumbnail" loading="lazy">
+                <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg></span>
+              </a>
+              <div class="video-copy">
+                <span class="content-type">Video</span>
+                <h3><a href="/videos/why-ai-is-different-from-every-previous-tech-shift/">Why AI is Different From Every Previous Tech Shift</a></h3>
+                <p>Why AI is more than another productivity tool, how transformers changed what software can do, and why distribution, trust, empathy, and human connection become more valuable as the cost of execution falls.</p>
+                <a class="resource-link" href="/videos/why-ai-is-different-from-every-previous-tech-shift/">Watch Now →</a>
+              </div>
+            </article>
+
+            <article class="video-card resource-item reveal" data-type="video" data-search="SEO AIO GEO AI optimization generative engine optimization AI visibility audit case study ChatGPT Gemini Siri">
+              <a class="video-thumb" href="/videos/why-traditional-seo-is-dead/" aria-label="Watch Why Traditional SEO is Dead (And What Replaces It)">
+                <img src="https://i.ytimg.com/vi/Ejq5-CXz4Ok/hqdefault.jpg" alt="Why Traditional SEO is Dead and What Replaces It video thumbnail" loading="lazy">
+                <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg></span>
+              </a>
+              <div class="video-copy">
+                <span class="content-type">Video</span>
+                <h3><a href="/videos/why-traditional-seo-is-dead/">Why Traditional SEO is Dead (And What Replaces It)</a></h3>
+                <p>How search is shifting toward AI-driven discovery, what AIO and GEO change for brands, and how a focused AI visibility project improved one company's visibility score from 12/100 to 60/100.</p>
+                <a class="resource-link" href="/videos/why-traditional-seo-is-dead/">Watch Now →</a>
+              </div>
+            </article>
+
+            <article class="video-card resource-item reveal" data-type="video" data-search="SEO GEO AEO AIO AI search optimization answer engine optimization generative engine optimization ChatGPT Claude content structure AI visibility">
+              <a class="video-thumb" href="/videos/is-your-business-visible-to-ai/" aria-label="Watch Is Your Business Visible to AI? SEO vs GEO and AIO Explained">
+                <img src="https://i.ytimg.com/vi/8ZTlSxpH3dY/hqdefault.jpg" alt="Is Your Business Visible to AI SEO vs GEO and AIO Explained video thumbnail" loading="lazy">
+                <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg></span>
+              </a>
+              <div class="video-copy">
+                <span class="content-type">Video</span>
+                <h3><a href="/videos/is-your-business-visible-to-ai/">Is Your Business Visible to AI? SEO vs GEO and AIO Explained</a></h3>
+                <p>Understand the differences between SEO, GEO, AEO, and AIO, and learn how to structure useful content so AI systems such as ChatGPT and Claude can understand your expertise and surface your business in relevant answers.</p>
+                <a class="resource-link" href="/videos/is-your-business-visible-to-ai/">Watch Now →</a>
+              </div>
+            </article>
+
+
+            <article class="video-card resource-item reveal" data-type="video" data-search="AI adoption technology S-curve early adopters laggards algorithms data compute data privacy security Samsung effect hallucinations AI-native startups SEO AEO answer engine optimization business AI strategy">
+              <a class="video-thumb" href="/videos/why-businesses-fail-at-ai-adoption/" aria-label="Watch Why 90% of Businesses Fail at AI Adoption (And How to Fix It)">
+                <img src="https://i.ytimg.com/vi/v_2TDKt4OyI/hqdefault.jpg" alt="Why 90% of Businesses Fail at AI Adoption and How to Fix It video thumbnail" loading="lazy">
+                <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg></span>
+              </a>
+              <div class="video-copy">
+                <span class="content-type">Video</span>
+                <h3><a href="/videos/why-businesses-fail-at-ai-adoption/">Why 90% of Businesses Fail at AI Adoption (And How to Fix It)</a></h3>
+                <p>Why businesses hesitate or struggle with AI adoption, from privacy and hallucination risks to the learning curve, AI-native competition, and the shift from traditional SEO toward answer engine optimization.</p>
+                <a class="resource-link" href="/videos/why-businesses-fail-at-ai-adoption/">Watch Now →</a>
+              </div>
+            </article>
+
+            <div class="empty-state" id="emptyState">No published resources match this filter yet. Try Videos or All.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <div class="container">
+          <div class="cta-panel reveal">
+            <div class="cta-inner">
+              <div>
+                <span class="label label-white">Talk to Opika</span>
+                <h2>Have a growth problem worth exploring?</h2>
+                <p>Share the bottleneck, opportunity, or system you are trying to improve. We can help determine where AI, GTM execution, automation, content, or stronger visibility could create practical value.</p>
+              </div>
+              <a class="btn btn-white" href="mailto:info@opika.co">Contact us →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-brand">
+            <img src="/logo.png" alt="Opika">
+            <p class="footer-text">AI-led go-to-market execution for businesses that need practical growth systems, stronger visibility, and hands-on implementation.</p>
+          </div>
+
+          <div>
+            <div class="footer-title">Explore</div>
+            <div class="footer-links">
+              <a class="footer-link" href="/">Home</a>
+              <a class="footer-link" href="/about-us">About Us</a>
+              <a class="footer-link" href="/resources">Resources</a>
+              <a class="footer-link" href="/glossary">Glossary</a>
+              <a class="footer-link" href="/faq">FAQ</a>
+              <a class="footer-link" href="/privacy-policy">Privacy Policy</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="footer-title">Contact</div>
+            <div class="footer-links">
+              <a class="footer-link" href="mailto:info@opika.co">info@opika.co</a>
+              <a class="footer-link" href="https://www.linkedin.com/company/opika-co" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a class="footer-link" href="https://x.com/Opika_co" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+              <a class="footer-link" href="https://www.instagram.com/opika_co/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">© <span id="year"></span> Opika. AI-led GTM execution partner.</div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const navShell = document.getElementById('nav-shell');
+    window.addEventListener('scroll', () => {
+      navShell.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    menuToggle.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('active');
+      menuToggle.setAttribute('aria-expanded', String(isOpen));
+      menuToggle.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+      menuToggle.textContent = isOpen ? '×' : '☰';
+      document.body.classList.toggle('menu-open', isOpen);
+    });
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        menuToggle.setAttribute('aria-expanded', 'false');
+        menuToggle.setAttribute('aria-label', 'Open menu');
+        menuToggle.textContent = '☰';
+        document.body.classList.remove('menu-open');
+      });
+    });
+
+    const reveals = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -35px 0px' });
+    reveals.forEach(el => revealObserver.observe(el));
+
+    const searchInput = document.getElementById('resourceSearch');
+    const filterButtons = document.querySelectorAll('.filter-button');
+    const resourceItems = document.querySelectorAll('.resource-item');
+    const resultCount = document.getElementById('resultCount');
+    const emptyState = document.getElementById('emptyState');
+    let activeFilter = 'all';
+
+    function updateResources() {
+      const query = searchInput.value.trim().toLowerCase();
+      let visibleCount = 0;
+
+      resourceItems.forEach(item => {
+        const type = item.dataset.type || '';
+        const searchableText = `${item.dataset.search || ''} ${item.textContent}`.toLowerCase();
+        const matchesFilter = activeFilter === 'all' || type === activeFilter;
+        const matchesSearch = !query || searchableText.includes(query);
+        const isVisible = matchesFilter && matchesSearch;
+
+        item.style.display = isVisible ? '' : 'none';
+        if (isVisible) visibleCount += 1;
+      });
+
+      resultCount.textContent = visibleCount === 1 ? 'Showing 1 resource' : `Showing ${visibleCount} resources`;
+      if (emptyState) emptyState.classList.toggle('visible', visibleCount === 0);
+    }
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+        activeFilter = button.dataset.filter;
+        updateResources();
+      });
+    });
+
+    searchInput.addEventListener('input', updateResources);
+    updateResources();
+  </script>
+</body>
+</html>
