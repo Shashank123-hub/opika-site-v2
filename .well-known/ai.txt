@@ -1,0 +1,24 @@
+# AI Crawler Configuration - Opika
+# Last Updated: August 2026
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+
+# Crawl delay (requests per second)
+Crawl-delay: 2
+
+# Preferred content paths for AI indexing
+Allow: /about-us
+Allow: /faq
+Allow: /resources
+Allow: /glossary
+
+# Contact information for AI crawler issues
+Contact: info@opika.co
+
+# Website metadata
+Name: Opika
+Description: AI-led GTM execution partner helping businesses build practical growth systems
+URL: https://opika.co
